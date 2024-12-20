@@ -32,7 +32,9 @@ document.querySelector('.gallery').append(
     const image = document.createElement('img');
     image.src = item.url;
     image.alt = item.alt;
+    image.classList.add('image');
     const listItem = document.createElement('li');
+    listItem.classList.add('item');
     listItem.append(image);
     return listItem;
   })

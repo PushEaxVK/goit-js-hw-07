@@ -29,6 +29,10 @@ ul {
   padding: 0;
 }
 
+img {
+  display: block;
+}
+
 /* TODO: Add css for Task 1 */
 /* TODO: Add css for Task 2 */
 /* TODO: Add css for Task 3 */

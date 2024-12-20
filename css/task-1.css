@@ -6,6 +6,8 @@
   display: flex;
   flex-direction: column;
   gap: 24px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .item {
