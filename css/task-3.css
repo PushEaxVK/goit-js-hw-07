@@ -1,0 +1,39 @@
+.field {
+  background-color: #fff;
+  border-radius: 8px;
+  width: 408px;
+  height: 136px;
+  padding: 24px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.name-input {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  width: 360px;
+  height: 40px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  padding-left: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-bottom: 16px;
+}
+
+.name-input:hover {
+  border-color: #000;
+}
+
+.welcome {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.33;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
