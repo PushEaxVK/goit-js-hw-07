@@ -5,18 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Task 6</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/task-6.css" />
   </head>
   <body>
     <p><a href="./index.html">Go back</a></p>
 
-    <div id="controls">
-      <input type="number" min="1" max="100" step="1" />
-      <button type="button" data-create>Create</button>
-      <button type="button" data-destroy>Destroy</button>
+    <div class="widget">
+      <div id="controls" class="controls">
+        <input class="number" type="number" min="1" max="100" step="1" />
+        <button class="create" type="button" data-create>Create</button>
+        <button class="destroy" type="button" data-destroy>Destroy</button>
+      </div>
+      <div class="boxes" id="boxes"></div>
     </div>
-
-    <div id="boxes"></div>
 
     <script src="./js/task-6.js" type="module"></script>
   </body>
