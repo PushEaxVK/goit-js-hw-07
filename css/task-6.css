@@ -29,64 +29,19 @@
 }
 
 .number {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: #2e2f42;
-  border: 1px solid #808080;
-  border-radius: 8px;
   width: 150px;
-  height: 40px;
   text-align: center;
   margin-right: 16px;
 }
 
-.number:hover {
-  border-color: #000;
-}
-
-.number:focus {
-  outline: none;
-  border-color: #808080;
-}
-
 .create {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: #fff;
-  border-radius: 8px;
-  padding: 8px 16px;
   width: 120px;
-  height: 40px;
-  background-color: #4e75ff;
-  border: none;
-  cursor: pointer;
   margin-right: 16px;
 }
 
-.create:hover {
-  background-color: #6c8cff;
-}
-
 .destroy {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: #fff;
   background-color: #ff4e4e;
-  border: none;
-  cursor: pointer;
-  border-radius: 8px;
-  padding: 8px 16px;
   width: 120px;
-  height: 40px;
 }
 
 .destroy:hover {
