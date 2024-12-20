@@ -27,6 +27,7 @@ function createBoxes(amount) {
     div.style.backgroundColor = getRandomHexColor();
     divs.push(div);
   }
+  destroyBoxes();
   boxes.append(...divs);
 }
 
