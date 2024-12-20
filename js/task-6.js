@@ -15,6 +15,7 @@ create.addEventListener('click', event => {
   const number = Number(input.value);
   if (number >= 1 && number <= 100) {
     createBoxes(number);
+    input.value = '';
   }
 });
 
